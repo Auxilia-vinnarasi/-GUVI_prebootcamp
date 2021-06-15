@@ -1,0 +1,57 @@
+DIFFERENCE BETWEEN BROWSER JS(CONSOLE)VS
+Brower JS(console):                                           
+-->It is running in any web browser with proper browser engine.
+-->It is basically used on the client-side.
+-->In browser most of the time what you are doing is interacting with the DOM or cookies.
+-->It is run in any browser engine like JS core(safari) and spidermonkey (firefox),v8(Google chrome).
+-->It is used in front end development
+-->JS is programming language that is used for writing scripts on the website.
+-->In the browser we are starting to see the ES Modules standard being implemented.
+
+Node JS:
+-->It is an interpreter and environment for JS with some specific useful libraries which JS programming can use seperately.
+-->It is mostly used on the server side.
+-->In browser most of the time what you are doing is interacting with the DOM or cookies,
+   but these are not exist in node.
+-->Node uses the CommonJS module system.
+-->NOde JS only run in v8 engine which mainly using by google chrome.
+-->It is used in server side development.
+-->Node js is a JS runtime environment.
+********************************************************************************************
+HTTP1.1 vs HTTP 2:
+HTTP1.1:
+-->It has been around for 15 years.The problem with HTTP1 is that can only load request one at a time,
+   one request per one TCP connection.
+-->so multiple TCP for the same web asset if browser run parallel request.
+-->so multiple duplicate data request will made.and it can hurt performance.
+-->HTTP/1.1 which keeps all requests and responses in plain text format.
+-->While HTTP/2 uses the binary framing layer to encapsulate all messages in binary format, while still maintaining
+   HTTP semantics, such as verbs, methods, and headers.
+-->some methods and response codes are added in HTTP1.1.
+
+HTTP2:
+-->Support of parallel request transmission by "stream" in HTTP2.
+-->HTTP2 is fully multiplexed instead of ordered and blocking.
+-->It is binary instead of textual.
+-->It allows server to "push" responses proactively into client caches.
+-->It is new improved web protocol.
+-->It uses header compression to reduce overhead.
+********************************************************************************************** 
+DIFFERENCE BETWEEN PROGRAMMING LANGUAGE AND SCRIPTING LANGUAGE:
+programming lanuguage:
+-->It uses compilor to convert the highlevel programming language into machine language.
+-->Ex:C,C++,Assembly
+-->Its used to develop various applications such as desktop,mobile,etc..
+-->It is faster requires more memory.
+-->Not so easy to learn.
+-->It can be divided into high level;low-level language or compilor base or interpretor based language.
+
+Scripting Language:
+-->scriting language use an interpreter.
+-->Ex:JS,Python,Ruby,Perl,PHP.
+-->Mostly used for web development.
+-->It is slower requires less memory.
+-->Easier to learn.
+-->It can be divided into client side scripting language and server side scripting language.
+************************************************************************************************
+         
