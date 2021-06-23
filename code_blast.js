@@ -18,4 +18,4 @@ if (a) {
     console.log("Diffused")
 }
 
-/*To get result as diffused the variable should be "2"<"12;
+/*To get result as diffused the variable should be "2"<"12;*/
