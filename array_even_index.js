@@ -7,3 +7,5 @@ for (var i = 0; i <=10; i++)
  }
 }
 console.log(numsArr);
+/*output:
+["even", 2, "even", 4, "even", 6, "even", 8, "even", 10, "even"]/*
